@@ -1,0 +1,11 @@
+{
+  "name": "Darul Ikhlas International Academy",
+  "short_name": "DIK Academy",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1A1B4B",
+  "icons": [
+    { "src": "assets/favicon-300.png", "sizes": "300x300", "type": "image/png" }
+  ]
+}

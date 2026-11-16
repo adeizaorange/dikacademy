@@ -1,0 +1,46 @@
+# Normal search engines (Google, Bing and others) can crawl everything.
+User-agent: *
+Allow: /
+
+# AI training crawlers are blocked below.
+# Google-Extended only stops Gemini training. It does not affect Google Search ranking.
+
+# OpenAI
+User-agent: GPTBot
+Disallow: /
+
+# Common Crawl (its data is used to train many AI models)
+User-agent: CCBot
+Disallow: /
+
+# Google (Gemini training)
+User-agent: Google-Extended
+Disallow: /
+
+# Anthropic
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+Disallow: /
+
+# Apple (Apple Intelligence training)
+User-agent: Applebot-Extended
+Disallow: /
+
+# Meta
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# ByteDance
+User-agent: Bytespider
+Disallow: /
+
+# Amazon
+User-agent: Amazonbot
+Disallow: /
+
+# Cohere and Diffbot
+User-agent: cohere-ai
+User-agent: Diffbot
+Disallow: /
+
+Sitemap: https://dikacademy.com/sitemap.xml
